@@ -58,9 +58,8 @@
     }
 }
 
-/* Media query para telas entre 435px e 300px */
-@media screen and (max-width: 488px) and (min-width: 300px) {
-    .begin-section {
-        padding: 20px;
+@media screen and (max-width: 500px) and (min-width: 300px) {
+    .titulo-div {
+        padding: 50px;
     }
 }
