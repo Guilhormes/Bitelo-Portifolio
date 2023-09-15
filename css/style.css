@@ -28,3 +28,11 @@
 ::-webkit-scrollbar-track {
     background-color: #262262; 
 }
+
+
+
+
+.gradient-divider {
+    height: 50px; /* Ajuste a altura da div conforme desejado */
+    background: linear-gradient(to bottom, #262262, #8d357c); /* Configuração do degradê */
+}

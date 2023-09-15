@@ -56,3 +56,4 @@ navLinks.forEach(link => {
         scrollToSection(targetId);
     });
 });
+
