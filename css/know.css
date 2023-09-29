@@ -1,5 +1,49 @@
 #know-section {
-    background: linear-gradient(#8d357c,#c6458e, #f66e9b);
-    height: 100vh;
+    background: linear-gradient(#8d357c, #c6458e, #f66e9b);
     width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.know-texto {
+    text-align: center;
+    margin-top: 15vh; 
+}
+
+.know-texto h4 {
+    font-size: 1.5rem;
+}
+
+.front-icon,
+.back-icon {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.front-icon article,
+.back-icon article {
+    text-align: center;
+}
+
+.front-icon img,
+.back-icon img {
+    width: 150px;
+}
+
+.knowledge-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.know-texto-frontend,
+.know-texto-backend {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
 }

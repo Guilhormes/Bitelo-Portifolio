@@ -1,15 +1,15 @@
 //scroll reveal
 ScrollReveal().reveal('.titulo-div', { 
-    delay: 200,
-    easing: 'ease',  
+    easing: 'ease',
+    delay: 200,  
 });
 
 ScrollReveal().reveal('.about-foto', {
-    delay: 250,
     origin: 'left', 
     distance: '50%',
     duration: 800, 
     easing: 'ease', 
+    delay: 250,
 });
 
 ScrollReveal().reveal('.about-texto h4', {
@@ -35,6 +35,43 @@ ScrollReveal().reveal('.about-texto p', {
     easing: 'ease',
     delay: 500 
 });
+
+ScrollReveal().reveal('.know-texto h4', {
+    origin: 'top',
+    distance: '20px',
+    duration: 800,
+    easing: 'ease',
+    delay: 500 
+});
+
+ScrollReveal().reveal('.know-texto-frontend p', {
+    origin: 'top',
+    distance: '20px',
+    duration: 800,
+    easing: 'ease',
+    delay: 600 
+});
+
+ScrollReveal().reveal('.know-texto-backend p', {
+    origin: 'top',
+    distance: '20px',
+    duration: 800,
+    easing: 'ease',
+    delay: 700 
+});
+
+ScrollReveal().reveal('.front-icon article', {
+    duration: 800,
+    easing: 'ease',
+    delay: 700
+});
+
+ScrollReveal().reveal('.back-icon article', {
+    duration: 800,
+    easing: 'ease',
+    delay: 800 
+});
+
 
 // Função para rolagem suave
 function scrollToSection(id) {
