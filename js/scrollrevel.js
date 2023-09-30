@@ -72,6 +72,29 @@ ScrollReveal().reveal('.back-icon article', {
     delay: 800 
 });
 
+ScrollReveal().reveal('.contact-texto h4', {
+    origin: 'top',
+    distance: '20px',
+    duration: 800,
+    easing: 'ease',
+    delay: 300 
+});
+
+ScrollReveal().reveal('.contact-texto p', {
+    origin: 'top',
+    distance: '20px',
+    duration: 800,
+    easing: 'ease',
+    delay: 500 
+});
+
+ScrollReveal().reveal('.contact-form', {
+    origin: 'right', 
+    distance: '50%',
+    duration: 800, 
+    easing: 'ease', 
+    delay: 250,
+});
 
 // Função para rolagem suave
 function scrollToSection(id) {
